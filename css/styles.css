@@ -1,0 +1,35 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+
+@import 'masthead.css';
+@import 'typography.css';
+@import 'welcome-page.css';
+@import 'deals.css';
+@import 'spotlight.css';
+
+
+html {
+	--site-blue: #407bc0;
+	--site-green:  #00ad10;
+	--site-gray: #f3f3f3;
+}
+
+body {
+	color:  #fff;
+}
+
+
+input[type="submit"], a.button {
+	margin: 15px;
+	padding:  15px 20px;
+	background-color: var(--site-green);
+	color:  #fff;
+	font-size:  20px;
+	border:  2px solid #fff;
+	border-radius:  10px;
+	align-self:  center;
+	align-items: center;
+	font-family: 'Sintony', sans-serif;
+	/*display: flex;*/
+}
