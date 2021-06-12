@@ -1,0 +1,104 @@
+
+
+.welcome-page {
+	background: url('../images/main-hero.png') no-repeat center center/cover;
+	min-height: 70vh;
+	margin-bottom:  20px;
+}
+
+.landing-page picture {
+	display:  none;
+}
+
+
+.landing-page {
+	/*height:  60vh;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top:  15px;
+
+}
+
+.search-engine{
+	/*border:  2px solid black;*/
+	padding: 25px 0px 20px;
+	background-color: var(--site-blue);
+	opacity:  0.95;
+	margin-top:  10px;
+}
+
+.search-engine h2{
+
+
+	padding:  10px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.search-engine h2 + p {
+	text-align: center;
+	line-height: 1.5;
+	padding:  10px;
+}
+
+.travel-icon-grid {
+	/*border:  1px solid black;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 15px;
+	margin:  15px 7px 0;
+	/*padding:  10px;*/
+	border-top:  2px solid #fff;
+
+}
+
+.travel-icon-grid i {
+	font-size:  40px;
+	padding: 15px;
+	padding-bottom: 20px;
+	/*border:  1px solid green;*/
+}
+
+.travel-icon-grid p {
+	text-align: center;
+}
+
+.travel-icon-grid .icon {
+	padding:  5px 0 10px;
+
+}
+
+.travel-icon-grid .icon:hover {
+	background-color: var(--site-green);
+
+}
+
+.input-field {
+	/*border:  3px solid green;*/
+	margin-top:  10px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+label {
+	padding:  10px;
+	font-weight: bold;
+	font-size:  18px;
+}
+
+.checkin-out-people div, input, select {
+	padding:  5px;
+}
+
+input, select {
+	font-size:  16px;
+}
+
