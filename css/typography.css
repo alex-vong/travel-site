@@ -1,0 +1,30 @@
+/*typohraphy imports*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: "Thirsty-Rough";
+  src: url("/fonts/Thirsty-Rough/ThirstyRoughBlack.otf") format("otf")
+}
+
+
+
+.site-logo {
+	font-family: "ThirstyRoughBolTwo";
+
+}
+
+.big-header {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size:  45px;
+}
+
+.support-text, input[placeholder], label {
+	font-family: 'Sintony', sans-serif;
+}
+
+.support-text {
+	font-size:  18px;
+	line-height: 1.5;
+}
