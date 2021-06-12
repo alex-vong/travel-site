@@ -1,0 +1,50 @@
+
+.deals-section {
+	background-color: var(--site-blue);
+	background: url('../images/take-off.png') no-repeat center center/cover;
+	padding-top:  10px;
+	margin-top:  50px;
+
+}
+
+.deals .hidden {
+	display:  none;
+}
+
+.deals-section p {
+	display:  inline-block;
+	padding:  10px;
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	color:  var(--site-green);
+	font-weight: bold;
+	margin:  10px;
+
+
+}
+
+.deals h3 {
+	text-shadow: 2px 2px 2px var(--site-blue);
+}
+
+.deals {
+	padding:  5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.deals picture img {
+	border-radius: 20px;
+}
+
+a.button {
+	display: inline-block;
+}
+
+.deals-text {
+	padding-bottom:  15px;
+}
