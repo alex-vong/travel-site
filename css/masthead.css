@@ -1,0 +1,59 @@
+
+.masthead {
+	background-color: var(--site-blue);
+	padding:  20px 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.masthead .site-menu {
+	padding:  10px 0;
+	display: flex;
+	flex-direction: column;
+	align-items:  center;
+	justify-content: center;
+
+}
+
+.masthead .site-menu .site-logo {
+ font-family: "ThirstyRoughBolTwo";
+ font-size:  clamp(45px, 10vw, 70px);
+ padding:  0;
+}
+
+.site-menu a, .masthead .user-menu {
+	padding:  15px;
+	font-size:  20px;
+	font-weight: 700;
+}
+
+.masthead .user-menu {
+	display: flex;
+	align-items:  center;
+	justify-content: center;
+	border:  3px solid #fff;
+	margin:  0 30px;
+}
+
+
+@media (min-width: 700px) {
+
+	.masthead {
+
+		flex-direction: row;
+		justify-content: center;
+	}
+	.masthead .site-menu {
+
+		flex-direction: row;
+		align-items:  center;
+		justify-content: center;
+		/*outline:  2px solid dodgerblue;*/
+
+	}
+
+}
+
+
