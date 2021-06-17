@@ -1,0 +1,33 @@
+
+footer {
+	border: var(--border);
+	color:  black;
+}
+
+.footer-menu-options {
+	background: url('../images/footer-map.jpeg') no-repeat center center/cover;
+}
+
+
+.footer-menu-options .inner-column {
+	border: var(--border);
+	padding: 40px 10px 60px 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer-menu-item {
+	padding: 10px;
+	border: var(--border);
+	display: flex;
+	flex-direction: column;
+
+}
+
+.footer-menu-item a {
+	border: var(--border);
+	padding: 10px;
+}
+

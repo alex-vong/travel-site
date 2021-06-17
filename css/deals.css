@@ -7,6 +7,11 @@
 
 }
 
+.cta-2 {
+	background: url('../images/disney-land.jpeg') no-repeat center center/cover;
+
+}
+
 .deals .hidden {
 	display:  none;
 }
@@ -48,3 +53,4 @@ a.button {
 .deals-text {
 	padding-bottom:  15px;
 }
+
